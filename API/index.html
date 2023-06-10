@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Weather app</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/bootstrap.css.map">
+        <link rel="stylesheet" href="css/bootstrap-grid.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.css.map">
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css.map">
+        <link rel="stylesheet" href="css/bootstrap.css.map">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        
+    <div class="container">
+        
+            <div class="current-info">
+                
+                <div class="date-container">
+                    <div class="time" id="time">
+                    12:30 
+                    <span id="am-pm">PM</span>
+                    </div>
+                    <div class="date" id="date">
+                    Monday, 13th February
+                    </div>
+                    <div class="others" id="current-weather-items">
+                        
+                    </div>
+                </div>
+                <form action="" class="search-bar">
+                <input id="search-bar" type="text" placeholder="search any city">
+            </form>
+                <div class="place-container">
+                    <div class="time-zone" id="time-zone">Egypt/Africa
+                    </div>
+                    <div class="country" id="country">IN</div>
+                </div>
+            </div>
+            <div class="future-forecast">
+                <div class="today" id="current-temp ">
+                    <img id="icon" src=" http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class=" w-icon">
+                    <div class="other">
+                    <div class="day" id="dayy">Monday</div>
+                    <div class="location" ><p id="Citylocation"></p></div>
+                    <div class="temp" id="dates">Date</div>
+                    <div class="temp" id="tempinc">temp in c -25.6</div>
+                    <div class="temp" id="discription">temp in F -25.6</div>  
+                </div>
+                    
+            </div>
+
+
+            <div class="weather-forecast" id="weather-forecast">
+                        <div class="weather-forecast-item">
+                        <img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="" class="nexticon w-icon">
+                        <div class="dayz">Tuesday</div>
+                        <div class="dates" >Date</div>
+                        <div class="tempinc">temp in c -25.6</div>
+                        <div class="discription" id="">temp in F -25.6</div>  
+                </div>
+
+
+                <div class="weather-forecast-item">
+                    <img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="nexticon w-icon">
+                    <div class="dayz">wed</div>
+                    <div class="dates">Date</div>
+                    <div class="tempinc">temp in c -25.6</div>
+                    <div class="discription" id="discription">temp in F -25.6</div>  
+                </div>
+                
+                
+                <div class="weather-forecast-item">
+                    <img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="nexticon w-icon">
+                    <div id='dayyy' class="day" id="dayyy">Thursday</div>
+                    <div class="dates">Date</div>
+                    <div class="tempinc">temp in c</div>
+                    <div class="temp" id="discription">Description</div>  
+                </div>
+                
+                
+                
+                <div class="weather-forecast-item">
+                    <img id='nexticon' src=" http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                    <div class="day">Friday</div>
+                    <div class="temp" id="dates">Date</div>
+                    <div class="temp" id="tempinc">temp in c </div>
+                    <div class="temp" id="discription">Description</div>  
+
+                </div>
+                
+                
+                
+                <div class="weather-forecast-item">
+                    <img id='nexticon' src=" http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                    <div id='dayyy' class="day" id="dayyy">Saturday</div>
+                    <div class="temp" id="dates">Date</div>
+                    <div class="temp" id="tempinc">temp in c</div>
+                    <div class="temp" id="discription">Description</div>  
+                </div>
+
+
+                <div class="weather-forecast-item">
+                    <img  id='nexticon'src=" http://openweathermap.org/img/wn/10d@2x.png" alt="weather icon" class="w-icon">
+                    <div id='dayyy' class="day" id="dayyy">Sunday</div>
+                    <div class="temp" id="dates">Date</div>
+                    <div class="temp" id="tempinc">temp in c</div>
+                    <div class="temp" id="discription">Description</div>  
+
+                </div>
+
+
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js" async defer></script>
+    <script src="main.js" async defer></script>
+    <script src="js/bootstrap.bundle.js" async defer></script>
+    <script src="js/bootstrap.bundle.min.js" async defer></script>
+    <script src="js/bootstrap.bundle.min.js" async defer></script>
+    <script src="js/bootstrap.js" async defer></script>
+
+
+</html>
